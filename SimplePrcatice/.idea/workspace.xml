@@ -24,60 +24,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSort_01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_01.java">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort_02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="251">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestStack.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Tiger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Tiger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/Person.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="SouthTiger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/SouthTiger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestArrayList.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestIterator.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestMap.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestQueue.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestSet.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -86,6 +99,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,12 +116,15 @@
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/Day.java" />
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/StringTest.java" />
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/Constructor.java" />
-        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Animal.java" />
-        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Cat.java" />
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/BubbleSort_01.java" />
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_02.java" />
         <option value="$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_01.java" />
+        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Test.java" />
+        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Cat.java" />
+        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Animal.java" />
+        <option value="$PROJECT_DIR$/src/Simple/daily/practice/Tiger.java" />
+        <option value="$PROJECT_DIR$/src/Simple/daily/practice/SouthTiger.java" />
       </list>
     </option>
   </component>
@@ -131,8 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -230,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort_02">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Simple.daily.practice.BubbleSort" />
       <module name="SimplePrcatice" />
@@ -249,6 +266,17 @@
     </configuration>
     <configuration name="BubbleSort_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Simple.daily.practice.BubbleSort_02" />
+      <module name="SimplePrcatice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Simple.daily.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Simple.daily.practice.Test" />
       <module name="SimplePrcatice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -315,9 +343,11 @@
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.BubbleSort_01" />
       <item itemvalue="Application.BubbleSort_02" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BubbleSort_02" />
         <item itemvalue="Application.BubbleSort_01" />
         <item itemvalue="Application.BubbleSort" />
@@ -351,17 +381,19 @@
       <workItem from="1574404059316" duration="2380000" />
       <workItem from="1574689521362" duration="61000" />
       <workItem from="1575085642963" duration="106000" />
+      <workItem from="1575547636284" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45977000" />
+    <option name="totallyTimeSpent" value="47614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.35978112" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -383,7 +415,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.35978112" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -402,21 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="105" column="7" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Test02.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14560">
@@ -597,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Cat.java" />
-    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -612,31 +620,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="446" column="5" selection-start-line="446" selection-start-column="5" selection-end-line="446" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/BubbleSort_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="392">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestArrayList.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -652,6 +644,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestSet.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaCollectionFrame/src/com/bittech/jcf/TestStack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="446" column="5" selection-start-line="446" selection-start-column="5" selection-end-line="446" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Tiger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/SouthTiger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/daily/practice/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
