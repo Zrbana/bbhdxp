@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1" metadata-complete="true">
+    <servlet>
+        <servlet-name>ContextDemo1</servlet-name>
+        <servlet-class>com.bite.a_path.ContextDemo.ContextDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextDemo1</servlet-name>
+        <url-pattern>/ContextDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ScopeDemo1</servlet-name>
+        <servlet-class>com.bite.b_scope.ScopeDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScopeDemo1</servlet-name>
+        <url-pattern>/scopeDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ScopeDemo2</servlet-name>
+        <servlet-class>com.bite.b_scope.ScopeDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScopeDemo2</servlet-name>
+        <url-pattern>/scopeDemo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForwadDemo</servlet-name>
+        <servlet-class>com.bite.c_forward.ForwadDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForwadDemo</servlet-name>
+        <url-pattern>/forward</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResponseDemo</servlet-name>
+        <servlet-class>com.bite.d_response.ResponseDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseDemo</servlet-name>
+        <url-pattern>/ResponseDemo</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RefreshDemo</servlet-name>
+        <servlet-class>com.bite.e_refresh.RefreshDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RefreshDemo</servlet-name>
+        <url-pattern>/RefreshDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestDemo</servlet-name>
+        <servlet-class>com.bite.f_request.RequestDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestDemo</servlet-name>
+        <url-pattern>/RequestDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestDemo2</servlet-name>
+        <servlet-class>com.bite.f_request.RequestDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestDemo2</servlet-name>
+        <url-pattern>/RequestDemo2</url-pattern>
+    </servlet-mapping>
+</web-app>
