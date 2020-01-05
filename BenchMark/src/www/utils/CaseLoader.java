@@ -84,28 +84,29 @@ class CaseRunner {
     public void run(Case bCase, Method method, int iterations, int group, int iterationsWarmUp) throws Exception{
         String caseName = bCase.getClass().getName();
         String methodName = method.getName();
-        System.out.println("这是针对 "+ caseName+"的"+methodName+"方法"+" 的检测报告：");
+        System.out.println("This is the test report for the "+caseName+","+methodName);
         //预热检测部分
         if(iterationsWarmUp != 0) {
-            System.out.println("-----------------------------------------------------");
-            System.out.println("预热开始..........");
+            System.out.println("————————————————————————");
+            System.out.println("start warming up");
             for(int k=0; k<iterationsWarmUp; k++) {
-                System.out.print("第 "+(k+1)+" 次预热：");
+                System.out.print("Warming up number "+(k+1)+"|");
                 long timeStart = System.nanoTime();
                 //每个预热单位默认执行10次，为了更加简洁，这个参数是死的
-                for(int i=0; i<10;i++) {
+                for(int i=0; i<iterationsWarmUp;i++) {
                     method.invoke(bCase);
                 }
                 long timeEnd = System.nanoTime();
                 long time = timeEnd - timeStart;
-                System.out.println("耗时："+time/10+" ns");
+                System.out.println(" elapsed time："+time/10+" ns");
             }
-            System.out.println("预热完毕..........");
-            System.out.println("-----------------------------------------------------");
+            System.out.println("warm up finished..........");
+            System.out.println("————————————————————————");
         }
         int totleTime = 0;
         for (int i=0; i<group; i++) {
-            System.out.print("这是第 "+(i+1)+" 次检测 | ");
+            System.out.println("Testing begin:");
+            System.out.print("Testing number "+(i+1)+"|");
             long timeStart = System.nanoTime();
             for(int j=0; j<iterations; j++) {
                 method.invoke(bCase);
@@ -113,10 +114,11 @@ class CaseRunner {
             long timeEnd = System.nanoTime();
             long time = timeEnd - timeStart;
             totleTime += time/iterations;
-            System.out.println("耗时："+time/iterations+" ns");
+            System.out.println(" elapsed time："+time/iterations+" ns");
         }
-        System.out.println("平均耗时："+totleTime/group+ " ns"+"，折合："+totleTime/group/1000000+"ms");
-        System.out.println("#############################################################");
+        System.out.println("The average time："+totleTime/group+ " ns");
+        System.out.println("conver to ms:"+totleTime/group/1000000+"ms");
+        System.out.println("Complete this test!");
     }
 }
 public class CaseLoader {
@@ -131,7 +133,7 @@ public class CaseLoader {
     public List<String> load() throws Exception {
         List<String> classNameList = new ArrayList<>();
         //定义你放测试文件的那个包的路径
-        String pkg = "www/yy/main/cases/";
+        String pkg = "www/annotation/cases";
         ClassLoader classLoader = this.getClass().getClassLoader();
         //返回的是一个迭代器，存放着对应的URL
         Enumeration<URL> urls = classLoader.getResources(pkg);
