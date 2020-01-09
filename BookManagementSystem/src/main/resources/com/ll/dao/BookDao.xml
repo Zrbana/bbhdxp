@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ll.dao.BookDao">
+    <resultMap id="bookMapp" type="com.ll.domain.Book">
+        <id property="bid" column="bid"/>
+        <result property="bookName" column="book_name"/>
+        <result property="counts" column="counts"/>
+        <result property="bookCode" column="book_code"/>
+    </resultMap>
+
+    <select id="findBookByPage" resultMap="bookMapp">
+        SELECT b.*, c.book_code FROM book b, book_classification c where b.bid = c.bid
+            <if test="condition.bookName!=null and condition.bookName != ''">
+                and b.book_name like #{condition.bookName}
+            </if>
+            <if test="condition.bookCode!=null and condition.bookCode != ''">
+                and c.book_code like #{condition.bookCode}
+            </if>
+        limit #{start},#{rows}
+    </select>
+
+    <select id="findTotalCount" parameterType="Map" resultType="Integer">
+        select count(*) from book b, book_classification c where b.bid = c.bid
+        <if test="condition.bookName!=null and condition.bookName != ''">
+            and b.book_name like #{condition.bookName}
+        </if>
+        <if test="condition.bookCode!=null and condition.bookCode != ''">
+            and c.book_code like #{condition.bookCode}
+        </if>
+    </select>
+</mapper>
