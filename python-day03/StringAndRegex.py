@@ -120,25 +120,57 @@ m=pat.findall(content)
 print(m) #匹配结果为： ['graph</div>bb<div>math']
 
 
+'''17.非贪心捕获'''
+content='<h>ddedadsad</h><div>graph</div>bb<div>math</div>cc'
+pat=re.compile(r"<div>(.*?)</div>")
+m=pat.findall(content)
+print(m) # ['graph', 'math']
 
 
+'''18.常用元字符总结
+.   匹配任意字符
+^   匹配字符串开始位置
+$   匹配字符串中结束的位置
+*   前面的原子重复0次，1次，多次
+?   前面的原子重复1次或1次
++   前面的原子重复1次或多次
+{n}   前面的原子出现了n次
+{n,}   前面的原子至少出现n次
+{n,m}  前面的原子出现次数介于n-m之间
+()   分组，需要输出的部分
+'''
 
 
+'''19.常用通用字符总结
+\s  匹配空白字符
+\w  匹配任意字母/数字/下划线
+\W  /和小写w相反，匹配任意字母 数字 下划线以外的字符
+\d  匹配十进制数字
+\D  匹配除了十进制以外的值
+[0-9] 匹配一个0-9之间的数字
+[a-z]  匹配小写字母
+[A-Z]  匹配大写字母
+
+'''
+
+'''20.爬取百度首页标题'''
+import  re
+from urllib import request
+
+#爬取百度首页内容
+data = request.urlopen("http://www.baidu.com/").read().decode()
+
+#分析网页，确定正则表达式
+pat = r'<title>(.*?)</title>'
+
+result = re.search(pat,data)
+print(result) #<re.Match object; span=(924, 948), match='<title>百度一下，你就知道</title>'>
+result.group()
+
+'''21.批量转化为驼峰格式'''
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''22.密码安全检查'''
 
 
 
