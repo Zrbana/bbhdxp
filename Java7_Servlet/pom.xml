@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--打war包：
+    能够tomcat进行解压-->
+    <packaging>war</packaging>
+
+
+    <groupId>com.bite.servlet</groupId>
+    <artifactId>Java7_Servlet</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+        <!--依赖范围
+            provided:提供jar包，不参与部署  (jsp/servlet)
+            compile:默认的（所有的jar包都有进行编译）
+            test：测试时用到的jar包（junit：单元测试）
+        -->
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+
+<!--&#45;&#45;构建d插件工具&ndash;&gt;
+    <build>
+        <plugins>
+            <plugin>
+                &lt;!&ndash;使用maven自带的tomcat插件&ndash;&gt;
+            </plugin>
+        </plugins>
+    </build>-->
+
+
+
+
+
+</project>
