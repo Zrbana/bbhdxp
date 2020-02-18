@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c97d08df-24cc-40f1-905a-5dcf04e5949c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\16376\.m2\repository" />
+        <option name="mavenHome" value="E:/java7/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\java7\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XyDMY52aD62rr647FUvUQg5Iby" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/java7/mysql-connector-java-5.1.47.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97d08df-24cc-40f1-905a-5dcf04e5949c" name="Default Changelist" comment="" />
+      <created>1582009392816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582009392816</updated>
+      <workItem from="1582009397410" duration="1727000" />
+      <workItem from="1582011139930" duration="429000" />
+      <workItem from="1582011627814" duration="1846000" />
+      <workItem from="1582014265691" duration="3487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="610" y="54" key="#Project_Structure" timestamp="1582009406998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="610" y="54" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582009406998" />
+    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582029870481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582029870481" />
+    <state x="169" y="189" key="FileChooserDialogImpl" timestamp="1582014215146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="169" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582014215146" />
+    <state x="548" y="51" key="Maven.ArtifactSearchDialog" timestamp="1582011316076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="51" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1582011316076" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1582014218177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582014218177" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582014298950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582014298950" />
+  </component>
+</project>
