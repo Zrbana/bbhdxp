@@ -7,6 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -38,6 +53,26 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ImageDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dao.ImageDao" />
+      <module name="java-image-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImageDao" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,7 +99,9 @@
       <workItem from="1582009397410" duration="1727000" />
       <workItem from="1582011139930" duration="429000" />
       <workItem from="1582011627814" duration="1846000" />
-      <workItem from="1582014265691" duration="3487000" />
+      <workItem from="1582014265691" duration="3637000" />
+      <workItem from="1582078685275" duration="8262000" />
+      <workItem from="1582115779569" duration="527000" />
     </task>
     <servers />
   </component>
@@ -76,14 +113,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="610" y="54" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582009406998" />
-    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582029870481">
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582095646221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582029870481" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582095646221" />
+    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582096482074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="907" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582096482074" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1582095514254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1582095514254" />
     <state x="169" y="189" key="FileChooserDialogImpl" timestamp="1582014215146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="169" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582014215146" />
+    <state width="974" height="58" key="GridCell.Tab.0.bottom" timestamp="1582115316481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="974" height="58" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582115316481" />
+    <state width="974" height="58" key="GridCell.Tab.0.center" timestamp="1582115316481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="974" height="58" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582115316481" />
+    <state width="974" height="58" key="GridCell.Tab.0.left" timestamp="1582115316481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="974" height="58" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582115316481" />
+    <state width="974" height="58" key="GridCell.Tab.0.right" timestamp="1582115316481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="974" height="58" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582115316481" />
     <state x="548" y="51" key="Maven.ArtifactSearchDialog" timestamp="1582011316076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -92,9 +153,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582014218177" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582014298950">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582115830310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582014298950" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582115830310" />
   </component>
 </project>

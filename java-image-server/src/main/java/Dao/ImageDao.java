@@ -1,11 +1,9 @@
 package Dao;
 
+import com.sun.org.apache.bcel.internal.generic.IADD;
 import common.JavaImageServerException;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +26,7 @@ public class ImageDao {
             statement = connection.prepareStatement(sql);
             statement.setString(1, image.getImageName());
             statement.setInt(2, image.getSize());
-            statement.setString(3, image.getUpload_time());
+            statement.setString(3, image.getUploadTime());
             statement.setString(4, image.getContentType());
             statement.setString(5, image.getPath());
             statement.setString(6, image.getMd5());
@@ -45,7 +43,7 @@ public class ImageDao {
 
 
             //3.关闭数据库
-            DBUtil.close(connection,statement,null);
+            DBUtil.close(connection,statement);
         }
 
 
@@ -57,7 +55,7 @@ public class ImageDao {
      */
     public List<Image> selectAll(){
 
-        Image image = new Image();
+
         List<Image> imageList = new ArrayList<>();
         Connection connection = (Connection) DBUtil.getConnection();
         PreparedStatement statement = null;
@@ -65,13 +63,16 @@ public class ImageDao {
         String sql = "select * from image_table";
         try {
             statement = connection.prepareStatement(sql);
+            resultSet = statement.executeQuery();
 
 
+            //处理结果集
             while(resultSet.next()){
-                image.setImageID(resultSet.getInt("imageId"));
+                Image image = new Image();
+                image.setImageId(resultSet.getInt("imageId"));
                 image.setImageName(resultSet.getString("imageName"));
                 image.setSize(resultSet.getInt("size"));
-                image.setUpload_time(resultSet.getString("upload_time"));
+                image.setUploadTime(resultSet.getString("uploadTime"));
                 image.setContentType(resultSet.getString("contentType"));
                 image.setPath(resultSet.getString("path"));
                 image.setMd5(resultSet.getString("md5"));
@@ -104,10 +105,10 @@ public class ImageDao {
             // 4. 处理结果集
             if (resultSet.next()) {
                 Image image = new Image();
-                image.setImageID(resultSet.getInt("imageId"));
+                image.setImageId(resultSet.getInt("imageId"));
                 image.setImageName(resultSet.getString("imageName"));
                 image.setSize(resultSet.getInt("size"));
-                image.setUpload_time(resultSet.getString("uploadTime"));
+                image.setUploadTime(resultSet.getString("uploadTime"));
                 image.setContentType(resultSet.getString("contentType"));
                 image.setPath(resultSet.getString("path"));
                 image.setMd5(resultSet.getString("md5"));
@@ -119,6 +120,7 @@ public class ImageDao {
             // 5. 关闭链接
             DBUtil.close(connection, statement, resultSet);
         }
+        return null;
     }
 
     /**
@@ -146,6 +148,33 @@ public class ImageDao {
             // 4. 关闭连接
             DBUtil.close(connection, statement, null);
         }
+    }
+
+    public static void main(String[] args) {
+        /*1.测试插入数据
+        Image image = new Image();
+        image.setImageName("1.png");
+        image.setSize(100);
+        image.setUpload_time("20200219");
+        image.setContentType("image/png");
+        image.setPath("./data/1.png");
+        image.setMd5("123456799");
+        ImageDao imageDao = new ImageDao();
+        imageDao.insert(image);
+        */
+
+        /*2.测试查找所有图片信息
+        ImageDao imageDao  = new ImageDao();
+        List<Image> images = imageDao.selectAll();
+        System.out.println(images);
+         */
+
+        /* 3. 测试查找指定图片信息
+       ImageDao imageDao = new ImageDao();
+       Image image = imageDao.selectOne(1);
+      System.out.println(image);
+
+         */
     }
 
 

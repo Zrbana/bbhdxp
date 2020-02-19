@@ -11,16 +11,16 @@ import java.sql.Statement;
  */
 public class DBUtil {
 
-    private static final String URL = "jdbc:mysql://localhost:3306";
+    private static final String URL = "jdbc:mysql://127.0.0.1:3306/image_server?characterEncoding=utf8&useSSL=true";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
-    private static DataSource dataSource = null;
+    private static volatile DataSource dataSource = null;
 
     //创建数据库连接
-    public static DataSource getConnection(){
+    public static Connection getConnection(){
 
         try {
-            return (DataSource) getDataSource().getConnection();
+            return  getDataSource().getConnection();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -28,30 +28,44 @@ public class DBUtil {
     }
 
     //关闭数据库连接
-    public static void close(Connection connection, Statement statement, ResultSet resultSet){
+    public static void close(Connection connection, Statement statement, ResultSet resultSet) {
 
-        if(resultSet ==null){
+
             try {
+                if(resultSet == null)
                 resultSet.close();
+                if(statement == null) {
+                    statement.close();
+                }
+                if(connection == null) {
+                    connection.close();
+                }
+
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
         }
-        if(statement == null){
-            try {
+
+    //关闭数据库连接
+    public static void close(Connection connection, Statement statement) {
+
+
+        try {
+
+            if(statement == null) {
                 statement.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
-        }
-        if(connection == null){
-            try {
+            if(connection == null) {
                 connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
+
     }
+
 
     //创建DataSource的单例方法
     public static DataSource getDataSource(){

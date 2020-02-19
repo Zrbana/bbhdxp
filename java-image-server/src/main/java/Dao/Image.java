@@ -3,21 +3,17 @@ package Dao;
 //image的属性
 
 public class Image {
-    private int imageID;
+    private int imageId;
     private String imageName;
     private int size;
-    private String upload_time;
+    private String uploadTime;
     private String contentType;
     private String path;
     private String md5;
 
-    public int getImageID() {
-        return imageID;
-    }
 
-    public void setImageID(int imageID) {
-        this.imageID = imageID;
-    }
+
+
 
     public String getImageName() {
         return imageName;
@@ -35,12 +31,20 @@ public class Image {
         this.size = size;
     }
 
-    public String getUpload_time() {
-        return upload_time;
+    public int getImageId() {
+        return imageId;
     }
 
-    public void setUpload_time(String upload_time) {
-        this.upload_time = upload_time;
+    public void setImageId(int imageId) {
+        this.imageId = imageId;
+    }
+
+    public String getUploadTime() {
+        return uploadTime;
+    }
+
+    public void setUploadTime(String uploadTime) {
+        this.uploadTime = uploadTime;
     }
 
     public String getContentType() {
@@ -65,5 +69,17 @@ public class Image {
 
     public void setMd5(String md5) {
         this.md5 = md5;
+    }
+    @Override
+    public String toString() {
+        return "Image{" +
+                "imageId=" + imageId +
+                ", imageName='" + imageName + '\'' +
+                ", size=" + size +
+                ", uploadTime='" + uploadTime + '\'' +
+                ", contentType='" + contentType + '\'' +
+                ", path='" + path + '\'' +
+                ", md5='" + md5 + '\'' +
+                '}';
     }
 }
