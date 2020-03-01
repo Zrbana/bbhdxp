@@ -5,10 +5,9 @@ import www.annotation.Case;
 import www.annotation.Measurement;
 import www.annotation.WarmUp;
 
-import javax.xml.soap.SAAJResult;
 import java.io.File;
-import java.io.IOException;
 import java.lang.annotation.Annotation;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLDecoder;
@@ -16,6 +15,11 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
+/**
+ * @Author : YangY
+ * @Description :
+ * @Time : Created in 9:31 2019/7/13
+ */
 class CaseRunner {
 
     //初始化
@@ -43,12 +47,12 @@ class CaseRunner {
     public void runCase(Case bCase) throws Exception{
         int iterations = 100;    //每一组测试数的默认初始值
         int group = 10;     //组数的默认初始值
-        int iterationsWarmUp = 2;   //预热默认值
+        int iterationsWarmUp = 10;   //预热默认值
 
         //获取该类的Class对象；
         Class<?> cla = bCase.getClass();
         //获取类的注解信息,即第一层信息，如果没有再使用第二层
-        Annotation measurementW = cla.getAnnotation(Measurement.class);
+        Annotation  measurementW = cla.getAnnotation(Measurement.class);
         if(measurementW != null) {
             Measurement measurement = (Measurement)measurementW;
             iterations = measurement.iterations();
@@ -76,7 +80,7 @@ class CaseRunner {
                 iterationsWarmUp = 0;
             }
             //再调用具体实现的方法
-            run(bCase, method, iterations, group, iterationsWarmUp);
+            run(bCase, method, iterations, 10, 500);
         }
     }
 
@@ -123,36 +127,33 @@ class CaseRunner {
 }
 public class CaseLoader {
 
-
     //返回一个List集合，集合中包含了所有测试类的名字，
     // 即类名称以Case为结尾的类名称，
     // 目的是得到这些名字，就能
     //得到这些待测类的Class类，进一步就可以得到它们的实例化对象
-
-
-    public List<String> load() throws Exception {
+    public List<String> load() throws Exception{
         List<String> classNameList = new ArrayList<>();
         //定义你放测试文件的那个包的路径
-        String pkg = "www/annotation/cases";
+        String pkg = "www/yy/main/cases/";
         ClassLoader classLoader = this.getClass().getClassLoader();
         //返回的是一个迭代器，存放着对应的URL
         Enumeration<URL> urls = classLoader.getResources(pkg);
-        while (urls.hasMoreElements()) {
+        while(urls.hasMoreElements()) {
             URL url = urls.nextElement();
             //getProtocol()函数作用是返回该URL的协议名称，例如file
-            if (!url.getProtocol().equals("file")) {
+            if(!url.getProtocol().equals("file")) {
                 continue;
             }
             //获取该URL的路径，并用decode函数进行转码，不转码的话会出现乱码
-            String dirname = URLDecoder.decode(url.getPath(), "UTF-8");
+            String dirname = URLDecoder.decode(url.getPath(),"UTF-8");
             File dir = new File(dirname);
-            if (!dir.isDirectory()) {      //如果不是目录文件
+            if(!dir.isDirectory()) {      //如果不是目录文件
                 continue;
             }
             File[] files = dir.listFiles();    //获取这个目录下的所有文件
             //若为空，则跳过
-            if (files == null) continue;
-            for (File file : files) {
+            if(files == null) continue;
+            for(File file:files) {
                 String fileName = file.getName();
 
                 //这里的split分割函数里用.分割时，务必加上转义字符，因为这里的参数是一个正则表达式，而.在正则表达式
@@ -160,11 +161,11 @@ public class CaseLoader {
                 String[] str = fileName.split("\\.");
                 //判断这个文件是不是class文件，如果不是，直接跳过
                 //判断方法：用.分割类名后，获取最后一个元素，即后缀名，即可判断
-                if (!(str[str.length - 1].equals("class"))) {
+                if(!(str[str.length-1].equals("class"))) {
                     continue;
                 }
                 //获取该class文件的名称（即除去.class的那一部分）
-                String className = fileName.substring(0, fileName.length() - 6);
+                String className = fileName.substring(0,fileName.length()-6);
                 classNameList.add(className);
             }
         }
