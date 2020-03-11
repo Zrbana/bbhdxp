@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d2e2607-890b-4524-86f2-7c9470f7b873" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyrshU3HF9x2eCa7RLPfKLS2xV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.OutputStreamTest">
+    <configuration name="DirTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DirTest" />
+      <module name="File-operate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileTest" />
+      <module name="File-operate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zn.stream.OutputStreamTest" />
+      <module name="File-operate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zn.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OutputStreamTest" />
+        <item itemvalue="Application.DirTest" />
+        <item itemvalue="Application.FileTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d2e2607-890b-4524-86f2-7c9470f7b873" name="Default Changelist" comment="" />
+      <created>1583925884005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583925884005</updated>
+      <workItem from="1583925886096" duration="3628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="826" height="344" key="GridCell.Tab.0.bottom" timestamp="1583928258633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="826" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583928258633" />
+    <state width="826" height="344" key="GridCell.Tab.0.center" timestamp="1583928258633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="826" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583928258633" />
+    <state width="826" height="344" key="GridCell.Tab.0.left" timestamp="1583928258633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="826" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583928258633" />
+    <state width="826" height="344" key="GridCell.Tab.0.right" timestamp="1583928258633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="826" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583928258633" />
+  </component>
+</project>
