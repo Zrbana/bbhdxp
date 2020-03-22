@@ -17,14 +17,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\16376\.m2\repository" />
-        <option name="mavenHome" value="E:/java7/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="E:\java7\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="localRepository" value="E:\java7\repo-maven\repo" />
+        <option name="mavenHome" value="E:/java7/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\java7\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -39,19 +40,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0 .jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="D:/QQ下载文件/tangshi" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
-    <configuration name="HtmlunitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.HtmlunitDemo" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\Java-master\DataVisualizationForPoetry\src\main\java\com\getInfo\Exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HtmlUnitGetInfo">
+    <configuration name="HtmlUnitGetInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.getInfo.page.HtmlUnitGetInfo" />
       <module name="DataVisualizationForPoetry" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo.*" />
+          <option name="PATTERN" value="com.getInfo.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +65,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HtmlunitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo.HtmlunitDemo" />
+      <module name="DataVisualizationForPoetry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.getInfo.dbutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataVisualizationForPoetry [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HtmlUnitGetInfo" />
+        <item itemvalue="Maven.DataVisualizationForPoetry [compile]" />
         <item itemvalue="Application.HtmlunitDemo" />
       </list>
     </recent_temporary>
@@ -93,7 +139,19 @@
       <workItem from="1583288095767" duration="3013000" />
       <workItem from="1583291185817" duration="514000" />
       <workItem from="1583291783675" duration="4449000" />
-      <workItem from="1583374176324" duration="4463000" />
+      <workItem from="1583374176324" duration="4547000" />
+      <workItem from="1584618232197" duration="1164000" />
+      <workItem from="1584619458861" duration="1956000" />
+      <workItem from="1584622189483" duration="1907000" />
+      <workItem from="1584771534998" duration="4402000" />
+      <workItem from="1584796947861" duration="2338000" />
+      <workItem from="1584802177633" duration="584000" />
+      <workItem from="1584802820665" duration="3138000" />
+      <workItem from="1584841229675" duration="2508000" />
+      <workItem from="1584848145397" duration="457000" />
+      <workItem from="1584854849386" duration="1978000" />
+      <workItem from="1584864858937" duration="1955000" />
+      <workItem from="1584871984968" duration="13740000" />
     </task>
     <servers />
   </component>
@@ -101,45 +159,81 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Project_Structure" timestamp="1583293068054">
+    <state x="447" y="79" key="#Inspections" timestamp="1584882294844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583293068054" />
-    <state x="586" y="60" key="FileChooserDialogImpl" timestamp="1583293035190">
+    <state x="447" y="79" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1584882294844" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1584875766952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="60" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583293035190" />
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1583412921198">
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584875766952" />
+    <state x="970" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1584881131039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583412921198" />
-    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1583412921198">
+    <state x="970" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584881131039" />
+    <state x="410" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1584772187719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583412921198" />
-    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1583412921198">
+    <state x="410" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584772187719" />
+    <state x="586" y="60" key="FileChooserDialogImpl" timestamp="1584875542452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583412921198" />
-    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1583412921198">
+    <state x="586" y="60" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584875542452" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1584875312426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583412921198" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584875312426" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1584875312424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584875312424" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1584875312424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584875312424" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1584875312424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584875312424" />
+    <state width="1493" height="414" key="GridCell.Tab.1.bottom" timestamp="1584873413412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584873413412" />
+    <state width="1493" height="414" key="GridCell.Tab.1.center" timestamp="1584873413412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584873413412" />
+    <state width="1493" height="414" key="GridCell.Tab.1.left" timestamp="1584873413412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584873413412" />
+    <state width="1493" height="414" key="GridCell.Tab.1.right" timestamp="1584873413412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584873413412" />
     <state x="598" y="90" key="Maven.ArtifactSearchDialog" timestamp="1581332101702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="90" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1581332101702" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1583374542648">
+    <state x="160" y="0" key="SettingsEditor" timestamp="1584873638766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583374542648" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583291783835">
+    <state x="160" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584873638766" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1584871993645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583291783835" />
-    <state x="178" y="29" key="new project wizard" timestamp="1583374670960">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584871993645" />
+    <state x="356" y="94" key="new project wizard" timestamp="1584797264172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583374670960" />
+    <state x="356" y="94" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584797264172" />
+    <state x="850" y="186" key="run.anything.popup" timestamp="1584878880760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="850" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584878880760" />
+    <state x="738" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584885512229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="738" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584885512229" />
   </component>
 </project>
