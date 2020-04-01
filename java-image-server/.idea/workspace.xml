@@ -28,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XyDMY52aD62rr647FUvUQg5Iby" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,11 +52,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/java7/mysql-connector-java-5.1.47.jar!/" />
+    <property name="last_opened_file_path" value="E:/JavaProject/java-image-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="ImageDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -79,7 +83,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:image_server@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:image_server@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@12f32869" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -102,6 +116,7 @@
       <workItem from="1582014265691" duration="3637000" />
       <workItem from="1582078685275" duration="8262000" />
       <workItem from="1582115779569" duration="527000" />
+      <workItem from="1585740000567" duration="57000" />
     </task>
     <servers />
   </component>
@@ -125,10 +140,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1582095514254" />
-    <state x="169" y="189" key="FileChooserDialogImpl" timestamp="1582014215146">
+    <state x="169" y="189" key="FileChooserDialogImpl" timestamp="1585740056625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="169" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582014215146" />
+    <state x="169" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585740056625" />
     <state width="974" height="58" key="GridCell.Tab.0.bottom" timestamp="1582115316481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -149,10 +164,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="51" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1582011316076" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1582014218177">
+    <state x="272" y="0" key="SettingsEditor" timestamp="1585740032819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582014218177" />
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585740032819" />
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582115830310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
