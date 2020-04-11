@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!--这里可以利用properties标签来外部或内部引用连接数据库的配置，当然也可以利用以前的直接在datasource标签里写
+     有两种方式指明路径，URL和类路径URL是通过文件协议来写如：file:///D:文件在磁盘下的路径-->
+    <properties resource="jdbcConfig.properties">
+    </properties>
+
+    <!-- 用于起别名-->
+    <typeAliases>
+        <!-- 这个只能起一个别名-->
+        <!--<typeAlias type="domain.User" alias="user"></typeAlias>-->
+
+        <!-- package标签能将指定包下的所有类起别名，别名就是类名，不区分大小写-->
+        <package name="domain"></package>
+    </typeAliases>
+    <!--主配置文件-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"></property>
+                <property name="url" value="${url}"></property>
+                <property name="username" value="${username}"></property>
+                <property name="password" value="${password}"></property>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 指定映射配置文件的位置-->
+    <mappers>
+        <!--<mapper resource="dao/UserDao.xml"></mapper>-->
+        <!--当在mapper里指定了包后就不用写resource和class了-->
+        <package name="dao"></package>
+    </mappers>
+</configuration>
